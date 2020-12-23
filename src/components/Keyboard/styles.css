@@ -1,0 +1,14 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-rows: 5vw auto 5vw; 
+    column-gap: 10px;
+    row-gap: 15px;
+
+}
+
+.btn-keyboard {
+    height: 5vw; 
+}
+
+/* display gris pros botões */
