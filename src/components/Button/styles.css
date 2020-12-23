@@ -22,6 +22,7 @@
 @media screen and (max-width: 1024px) { /* Mobile */
     .btn {
         font-size: 15px;
+        letter-spacing: 4px;
     }
 }
 
