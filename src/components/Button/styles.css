@@ -1,0 +1,72 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.2vw;
+    letter-spacing: .4vw;
+    padding: 25px 80px;
+    margin: 2vh 0;
+    width: 25vw;
+    min-width: 240px;
+}
+
+@media screen and (max-width: 1024px) { /* Mobile */
+    .btn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) { /* Full HD */
+    .btn {
+        padding: 30px 80px;
+    }
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn.enabled {
+    box-shadow: 0 6px #c41f52;
+    background:#f5245e;
+}
+
+.btn.enabled:hover {
+    box-shadow: 0 4px #c41f52;
+    top: 2px;
+}
+  
+.btn.enabled:active {
+    box-shadow: 0 0 #c41f52;
+    top: 6px;
+}
+
+.btn.disabled {
+    box-shadow: 0 6px #666666;
+    background:#999999;
+    cursor: not-allowed;
+}
+
+.btn.disabled:hover {
+    box-shadow: 0 4px#666666;
+    top: 2px;
+}
+  
+.btn.disabled:active {
+    box-shadow: 0 0 #666666;
+    top: 6px;
+}
