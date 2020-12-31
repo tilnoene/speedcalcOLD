@@ -5,5 +5,8 @@
     flex-direction: column;
     flex-wrap: nowrap;
     height: 100vh;
-    
+}
+
+.container-answer {
+    margin-bottom: 2vw;
 }

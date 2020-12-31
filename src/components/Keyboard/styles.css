@@ -4,11 +4,11 @@
     grid-template-rows: 5vw auto 5vw; 
     column-gap: 10px;
     row-gap: 15px;
-
+    background-color: coral;
 }
 
 .btn-keyboard {
-    height: 5vw; 
+    height: 5vw;
+    border-radius: 20px;
+    outline: none;
 }
-
-/* display gris pros botões */
